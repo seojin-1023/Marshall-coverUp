@@ -122,6 +122,7 @@
     right: 400px;
 }
 /* con1 end */
+
 .main .con2 {
     margin-top: 52px;
 }
@@ -195,8 +196,11 @@
 .main .con2 .box-left li.on {
     color: #fff;
 }
+/* con2 end */
+
 .main .con3 {
     display: flex;
+    margin-top: 50px;
 }
 .main .con3 .left-box {
     width: 50%;
@@ -347,4 +351,39 @@
     left: 70px;
     text-align: left;
     z-index: 50;
+}
+/* con3 end */
+
+.main .con4 {
+    width: 100%;
+    height: 100vh;
+}
+.main .con4 h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 170px;
+    margin-bottom: 137px;
+}
+.main .con4 .swiper .swiper-slide {
+    position: relative;
+}
+.main .con4 .swiper .swiper-slide .slide-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    position: absolute;
+    left: 73px;
+    bottom: 99px;
+}
+.main .con4 .swiper .swiper-slide .slide-txt {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    position: absolute;
+    left: 73px;
+    bottom: 56px;
 }
