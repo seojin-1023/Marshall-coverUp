@@ -25,6 +25,12 @@ const data = [
     },
 ];
 
+var swiper = new Swiper('.mySwiper', {
+    slidesPerView: 'auto',
+    spaceBetween: 16,
+    centeredSlides: true,
+});
+
 let header = document.querySelector('#header');
 let menu = document.querySelector('#header .menu');
 let close = document.querySelector('#header .nav .gnb .close');
