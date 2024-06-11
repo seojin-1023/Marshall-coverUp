@@ -1,0 +1,297 @@
+@media screen and (max-width: 1023px) {
+    #header .inner {
+        width: 780px;
+    }
+    #header.on {
+        height: 100px;
+    }
+    #header .nav {
+        position: fixed;
+        right: 130%;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        background: #131313;
+        z-index: 100;
+        transition: 0.5s;
+    }
+    #header .nav.on {
+        right: 0;
+    }
+    #header .nav::after {
+        top: 90%;
+        width: 90%;
+        margin: auto;
+    }
+    #header .nav .gnb .close {
+        display: block;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 40px;
+        right: 60px;
+    }
+    #header .nav .gnb {
+        flex-direction: column;
+        text-align: left;
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+    #header .nav .gnb .m {
+        display: flex;
+        margin-bottom: 50px;
+    }
+    #header .nav .gnb .m-title {
+        font-size: 30px;
+    }
+    #header .nav .gnb .m .low {
+        display: flex;
+        margin-top: 10px;
+        text-align-last: left;
+    }
+    #header .nav .gnb .m .low li {
+        margin-left: 20px;
+    }
+    #header .nav .gnb .m .low.m1 {
+        margin-left: 407px;
+    }
+    #header .nav .gnb .m .low.m2 {
+        margin-left: 380px;
+    }
+    #header .nav .gnb .m .low.m3 {
+        margin-left: 380px;
+    }
+    #header .nav .gnb .m .low.m4 {
+        margin-left: 407px;
+    }
+    #header .nav .gnb .m .low.m5 {
+        margin-left: 407px;
+    }
+    #header .nav .gnb .m .low.m6 {
+        margin-left: 294px;
+    }
+    #header .nav .gnb .m .low.m7 {
+        margin-left: 220px;
+    }
+    #header .nav .gnb .m.right {
+        margin-left: 0;
+    }
+    #header .nav .util-left .top-menu {
+        z-index: 100;
+        top: 92vh;
+        left: 50px;
+    }
+    #header .nav .util-right .top-menu {
+        z-index: 100;
+        top: 92vh;
+        right: 10px;
+    }
+    #header h1 {
+        left: -30px;
+    }
+    #header .menu {
+        display: block;
+        position: absolute;
+        top: 32px;
+        right: -20px;
+    }
+
+    .main .con1 .am-list .bohan {
+        background-position: -400px 0;
+    }
+    .main .con1 .am-list .bohan:hover::after {
+        left: 80px;
+    }
+    .main .con1 .am-list .kelvin {
+        background-position: -300px 0;
+    }
+    .main .con1 .am-list .kelvin:hover::after {
+        left: 350px;
+    }
+    .main .con1 .am-list .suki {
+        background-position: -400px 0;
+    }
+    .main .con1 .am-list .suki:hover::after {
+        right: 180px;
+    }
+
+    .main .con2 .inner {
+        width: 780px;
+        flex-direction: column;
+    }
+    .main .con2 .box-left {
+        display: flex;
+        width: 100%;
+        height: 200px;
+    }
+    .main .con2 .box-left li {
+        font-size: 40px;
+        font-weight: 200;
+        margin-right: 50px;
+        margin-top: 120px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .main .con2 .box-left li:first-child {
+        margin-top: 120px;
+        margin-left: 25%;
+    }
+    .main .con2 .box-right {
+        width: 100%;
+        height: 790px;
+        overflow: hidden;
+    }
+    .main .con2 .box-right .title {
+        left: 0%;
+        font-size: 54px;
+    }
+    .main .con2 .box-right .txt {
+        left: 10%;
+        font-size: 18px;
+    }
+    .main .con2 .box-right .con2-pic {
+        width: 650px;
+        height: 271px;
+    }
+    .main .con2 .box-right .name {
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 752px) {
+    .main .con2 .box-left li,
+    .main .con2 .box-left li:first-child {
+        margin-top: 150px;
+    }
+}
+@media screen and (max-width: 700px) {
+    #header .inner {
+        width: 564px;
+    }
+    #header.on {
+        height: 100px;
+    }
+    #header .nav::after {
+        top: 90%;
+        width: 86%;
+        margin: auto;
+    }
+    #header .nav .gnb {
+        margin-top: 90px;
+    }
+    #header .nav .gnb .m {
+        display: flex;
+        margin-bottom: 58px;
+    }
+    #header .nav .gnb .m-title {
+        font-size: 30px;
+    }
+    #header .nav .gnb .m .low {
+        position: absolute;
+    }
+    #header .nav .gnb .m .low.m1,
+    #header .nav .gnb .m .low.m2,
+    #header .nav .gnb .m .low.m3,
+    #header .nav .gnb .m .low.m4,
+    #header .nav .gnb .m .low.m5,
+    #header .nav .gnb .m .low.m6,
+    #header .nav .gnb .m .low.m7 {
+        margin-left: -18px;
+        margin-top: 50px;
+    }
+    .main .con1 h2 {
+        width: 450px;
+        margin: auto;
+        margin-top: 87px;
+        margin-bottom: 20px;
+    }
+    .main .con1 p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .main .con1 .am-list {
+        flex-direction: column;
+        height: 690px;
+        overflow: hidden;
+    }
+    .main .con1 .am-list li {
+        flex: none;
+    }
+    .main .con1 .am-list .bohan,
+    .main .con1 .am-list .kelvin,
+    .main .con1 .am-list .suki {
+        height: 230px;
+        width: 100%;
+    }
+    .main .con1 .am-list .bohan {
+        background-position: -200px 0;
+    }
+    .main .con1 .am-list .kelvin {
+        background-position: 0 0;
+    }
+    .main .con1 .am-list .suki {
+        background-position: 0 0;
+    }
+
+    .main .con1 .am-list .bohan:hover,
+    .main .con1 .am-list .kelvin:hover,
+    .main .con1 .am-list .suki:hover {
+        flex: none;
+    }
+    .main .con1 .am-list .bohan:hover::after {
+        top: 200px;
+        left: 200px;
+    }
+    .main .con1 .am-list .kelvin:hover::after {
+        top: 320px;
+        left: 200px;
+    }
+    .main .con1 .am-list .suki:hover::after {
+        top: 450px;
+        left: 200px;
+    }
+    .main .con2 {
+        margin-top: 148px;
+    }
+    .main .con2 .inner {
+        width: 563px;
+    }
+    .main .con2 .box-left li {
+        margin-top: 100px;
+        font-size: 30px;
+        margin-right: 38px;
+    }
+    .main .con2 .box-left li:first-child {
+        margin-top: 100px;
+    }
+    .main .con2 .box-right {
+        height: 748px;
+    }
+    .main .con2 .box-right .title {
+        left: -22%;
+        font-size: 38px;
+        top: 100px;
+    }
+    .main .con2 .box-right .title.title2 {
+        margin-top: -60px;
+    }
+    .main .con2 .box-right .txt {
+        left: 7%;
+        font-size: 18px;
+        top: 260px;
+        width: 490px;
+    }
+    .main .con2 .box-right .con2-pic {
+        width: 650px;
+        height: 271px;
+        top: 380px;
+        left: -6%;
+    }
+    .main .con2 .box-right .name {
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 14px;
+    }
+}
